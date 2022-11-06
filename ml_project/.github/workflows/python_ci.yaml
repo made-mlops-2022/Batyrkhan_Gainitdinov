@@ -5,9 +5,9 @@ name: Python package ci
 
 on:
   push:
-    branches: [ main ]
+    branches: [main, homework1]
   pull_request:
-    branches: [ main ]
+    branches: [main, homework1]
 
 jobs:
   build:
