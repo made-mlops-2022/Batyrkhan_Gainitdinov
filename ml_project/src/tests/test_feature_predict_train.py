@@ -4,8 +4,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import pickle
 import logging
-sys.path.append('../features')
-sys.path.append('../models')
+sys.path.append('../features/')
+sys.path.append('../models/')
 from feature_selector import FeatureSelector
 from train_model import train
 from predict_model import predict
