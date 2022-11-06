@@ -84,3 +84,13 @@ AssertionError
 2022-11-06 20:39:28,586 : INFO : test_feature_predict_train : model successfuly loaded for prediction
 2022-11-06 20:39:28,588 : INFO : test_feature_predict_train : model predicted test values
 2022-11-06 20:39:28,588 : INFO : test_feature_predict_train : model predicted test values
+2022-11-06 21:10:33,680 : INFO : __main__ : model successfuly loaded for prediction
+2022-11-06 21:10:33,682 : INFO : __main__ : model predicted test values
+2022-11-06 21:10:47,977 : INFO : test_feature_predict_train : model successfuly loaded for prediction
+2022-11-06 21:10:47,978 : INFO : test_feature_predict_train : model predicted test values
+2022-11-06 21:10:47,982 : INFO : test_feature_predict_train : model LogisticRegression(max_iter=500) started to train
+2022-11-06 21:10:48,027 : INFO : test_feature_predict_train : model LogisticRegression(max_iter=500) saved as pickle
+2022-11-06 21:10:48,031 : INFO : test_feature_predict_train : model successfuly loaded for prediction
+2022-11-06 21:10:48,031 : INFO : test_feature_predict_train : model successfuly loaded for prediction
+2022-11-06 21:10:48,032 : INFO : test_feature_predict_train : model predicted test values
+2022-11-06 21:10:48,032 : INFO : test_feature_predict_train : model predicted test values

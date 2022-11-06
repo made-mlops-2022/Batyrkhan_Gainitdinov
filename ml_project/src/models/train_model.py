@@ -5,6 +5,9 @@ import pickle
 import logging
 import yaml
 import os
+import sys
+sys.path.append('../../')
+from dataclass_config import Config
 
 
 def load_config(config_name):
@@ -16,6 +19,7 @@ def load_config(config_name):
 CONFIG_PATH = "../../"
 config = load_config("my_config#1.yaml")
 config2 = load_config("my_config#2.yaml")
+config_d = Config(*config.values())
 
 
 def train(model, train_df, logger):
@@ -32,7 +36,7 @@ def train(model, train_df, logger):
 
 
 if __name__ == '__main__':
-    train_df = pd.read_csv(os.path.join('../../', config['train_test_data'], config['train_data']))
+    train_df = pd.read_csv(os.path.join('../../', config_d.train_test_data, config_d.train_data))
     if config['model'] == 'KNN':
         config = config2
         model = KNeighborsClassifier(
@@ -44,10 +48,10 @@ if __name__ == '__main__':
             metric=config['metric'],
             n_jobs=config['n_jobs'])
     else:
-        model = LogisticRegression(max_iter=config['max_iter'])
+        model = LogisticRegression(max_iter=config_d.max_iter)
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)
-    file_handler = logging.FileHandler(os.path.join('../', config['logs_path'], config['train_log']))
+    file_handler = logging.FileHandler(os.path.join('../', config_d.logs_path, config_d.train_log))
     formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
