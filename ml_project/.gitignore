@@ -10,7 +10,7 @@ src/features/.gitkeep
 src/models/__pycache__/
 src/models/.gitkeep
 src/tests/__pycache__/
-venv
+.venv
 .env
 # # C extensions
 # *.so
