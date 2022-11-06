@@ -1,0 +1,18 @@
+#INITIAL SETTINGS
+model_path: models/saved_models
+model_name: model.pkl
+train_test_data: data/processed/
+synthetic_data: data/interim/
+logs_path: logs
+data_log: data.log
+train_log: logfile_for_train.log
+predict_log: logfile_for_predict.log
+
+#kNN parameters
+n_neighbors: 5
+weights: uniform
+algorithm: auto
+leaf_size: 15
+p: 2
+metric: minkowski
+n_jobs: 1
