@@ -1,0 +1,10 @@
+2022-11-02 17:06:30,624 : INFO : __main__ : data has preprocessed
+2022-11-02 17:06:30,637 : INFO : __main__ : train and test dataframes are saved to csv format
+2022-11-02 17:06:55,946 : INFO : __main__ : data has preprocessed
+2022-11-02 17:06:55,953 : INFO : __main__ : train and test dataframes are saved to csv format
+2022-11-02 17:07:09,977 : INFO : __main__ : data has preprocessed
+2022-11-02 17:07:09,984 : INFO : __main__ : train and test dataframes are saved to csv format
+2022-11-02 21:32:56,590 : INFO : __main__ : synthetic data has generated
+2022-11-05 20:59:36,908 : INFO : __main__ : data has preprocessed
+2022-11-05 20:59:36,915 : INFO : __main__ : train and test dataframes are saved to csv format
+2022-11-05 21:05:38,688 : INFO : __main__ : synthetic data has generated
