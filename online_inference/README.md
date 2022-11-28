@@ -7,6 +7,8 @@ docker build -t batr97/online_inference .
 docker pull batr97/online_inference
 ### run container
 docker run -d -p 5001:5001 batr97/online_inference
+### requests
+- to
 ### tests
 - run from workdirectory:
 python -m pytest
