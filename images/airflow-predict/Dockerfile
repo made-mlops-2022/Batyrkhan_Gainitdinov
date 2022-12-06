@@ -1,5 +1,5 @@
 FROM airflow-ml-base:latest
 
-COPY predict.py /predict.py
+COPY predict_my.py /predict_my.py
 
-ENTRYPOINT ["python", "predict.py"]
+ENTRYPOINT ["python", "predict_my.py"]

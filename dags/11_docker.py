@@ -32,7 +32,7 @@ with DAG(
 
     preprocess = DockerOperator(
         image="airflow-preprocess",
-        command="--input-dir /data/raw/{{ ds }} --output-dir /data/processed/{{ ds }}2",
+        command="--input-dir /data/raw/{{ ds }} --output-dir /data/processed/{{ ds }}",
         task_id="docker-airflow-preprocess",
         do_xcom_push=False,
         mount_tmp_dir=False,

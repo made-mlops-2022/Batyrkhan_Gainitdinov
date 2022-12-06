@@ -1,5 +1,4 @@
-# airflow-examples
-код для пары Data Pipelines
+# MADE 2022 - MLOps, HW3, Data Pipelines
 
 чтобы развернуть airflow, предварительно собрав контейнеры
 ~~~
