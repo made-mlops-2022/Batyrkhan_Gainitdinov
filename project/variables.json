@@ -1,0 +1,5 @@
+{
+    "my_variables":{
+        "var1": "/opt/airflow/data/model_daily/{{ ds }}"
+    }
+}
